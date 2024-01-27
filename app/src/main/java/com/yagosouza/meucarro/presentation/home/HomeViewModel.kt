@@ -48,7 +48,7 @@ class HomeViewModel(
     }
 
     fun onButtonClick() {
-        sendAction(HomeAction.NavigateToTelaX)
+        sendAction(HomeAction.FinishApp)
     }
 
     private fun sendAction(action: HomeAction) = viewModelScope.launch(dispatcher) {
